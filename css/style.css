@@ -1,14 +1,24 @@
+/* GENERAL */
 * {
   margin: 0;
 }
 
+.to-be-invible {
+  color: transparent;
+  text-align: center;
+}
+
+section > div {
+  padding: 18% 0;
+}
+/* \GENERAL */
 
 
+/* HEADER */
 header {
   display: flex;
   background-color: #add8e6;
-  height: 2.5em;
-  padding: 0 1em 0 1em;
+  padding: 0.5em 1em;
   justify-content: center;
   align-items: center;
 }
@@ -32,19 +42,44 @@ header > div {
   text-align: right;
   flex-grow: 1;
 }
+/* \HEADER */
 
 
-
-.first {
+/* BODY */
+body > section {
   display: flex;
-  background-color: blue;
   justify-content: center;
   align-items: center;
+}
+/* \BODY */
+
+
+/* FIRST - SECTION */
+.first {
+  background-color: blue;
   padding: 1.5em 10%;
 }
 
 .first > div {
-  height: 12em;
-  width: 25em;
-  background-color:violet;
+  text-align: center;
+  background-color: violet;
+  padding: 18% 45%;
 }
+/* \FIRST - SECTION */
+
+
+/* SECOND - SECTION */
+.second {
+  padding: 1.5em 1em;
+}
+
+.second div:first-child {
+  background-color: cornflowerblue;
+  flex-grow: 2;
+}
+
+.second div:last-child {
+  background-color: pink;
+  flex-grow: 1;
+}
+/* \SECOND - SECTION */
