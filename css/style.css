@@ -10,6 +10,7 @@
 
 section > div {
   padding: 18% 0;
+  border: 2px dashed black ;
 }
 /* \GENERAL */
 
@@ -114,3 +115,22 @@ body > section {
   padding: 36% 48%;
 }
 /* \FORTH - SECTION */
+
+
+/* FIFTH - SECTION */
+.fifth {
+  background-color: #23272a;
+  padding: 1.5em 1em;
+  border-bottom: 2px solid grey;
+}
+
+.fifth div:first-child {
+  background-color:tomato;
+  flex-grow: 2;
+}
+
+.fifth div:not(:first-child) {
+  background-color: cadetblue;
+  flex-grow: 1;
+}
+/* \FIFTH - SECTION */
