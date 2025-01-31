@@ -132,5 +132,33 @@ body > section {
 .fifth div:not(:first-child) {
   background-color: cadetblue;
   flex-grow: 1;
+  border: 2px dashed white ;
 }
 /* \FIFTH - SECTION */
+
+
+/* FOOTER - SECTION */
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  background-color: #23272a;
+  height: 3.5em;
+}
+
+footer > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: aqua;
+  height: 2.8em;
+  width: 95%;
+}
+
+footer div > div {
+  font-size: small;
+  background-color: pink;
+  padding: 0.2em;
+  border: 2px dashed black ;
+}
+/* \FOOTER - SECTION */
