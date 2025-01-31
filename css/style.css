@@ -2,6 +2,8 @@
   margin: 0;
 }
 
+
+
 header {
   display: flex;
   background-color: #add8e6;
@@ -13,7 +15,7 @@ header {
 
 header > div {
   background-color: #daa520;
-  line-height: 1.5em;
+  padding: 0.2em;
   border: 2px dashed black ;
 }
 
@@ -29,4 +31,20 @@ header > div {
 .login {
   text-align: right;
   flex-grow: 1;
+}
+
+
+
+.first {
+  display: flex;
+  background-color: blue;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5em 10%;
+}
+
+.first > div {
+  height: 12em;
+  width: 25em;
+  background-color:violet;
 }
