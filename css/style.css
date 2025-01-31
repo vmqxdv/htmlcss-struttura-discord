@@ -101,3 +101,16 @@ body > section {
   flex-grow: 2;
 }
 /* \THIRD - SECTION */
+
+
+/* FORTH - SECTION */
+.forth {
+  background-color: grey;
+  padding: 1.5em 1em;
+}
+
+.forth > div:only-child {
+  background-color: green;
+  padding: 36% 48%;
+}
+/* \FORTH - SECTION */
