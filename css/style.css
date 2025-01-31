@@ -83,3 +83,21 @@ body > section {
   flex-grow: 1;
 }
 /* \SECOND - SECTION */
+
+
+/* THIRD - SECTION */
+.third {
+  padding: 1.5em 1em;
+  background-color: grey;
+}
+
+.third div:first-child {
+  background-color: pink;
+  flex-grow: 1;
+}
+
+.third div:last-child {
+  background-color: cornflowerblue;
+  flex-grow: 2;
+}
+/* \THIRD - SECTION */
